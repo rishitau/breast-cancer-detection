@@ -37,6 +37,22 @@ The Data description is as follows:
 ![Project Logo/Image](https://github.com/rishika-shrimal2107/Breast_cancer_prediction_/blob/main/Images/Screenshot%202024-01-29%20064517.png)
 
 ### Libraries used
+```python
+import pandas as pd #for chopping, processing
+from sklearn import tree
+from sklearn.model_selection import train_test_split # to split the data in train and test
+from sklearn import metrics  # for checking the accuracy
+
+#Classifiers 
+
+from sklearn.neighbors import KNeighborsClassifier # for K neighbor classifier
+from sklearn.tree import DecisionTreeClassifier #for decision tree classifier
+from sklearn.naive_bayes import GaussianNB  #for naive bayes classifier
+from sklearn.ensemble import RandomForestClassifier #for Random Forest
+from sklearn.ensemble import GradientBoostClassifier # Boost
+from sklearn.ensemble import BaggingClassifier # Bagging
+from sklearn.linear_model import LogisticRegression #for Logistic Regression
+from sklearn.svm import SVC # for SVM 
 ### Classifiers used to predict the breast cancer for a training size = 455 
 
 Type of Classifiers | Training accuracy | Testing accuracy |
@@ -51,4 +67,20 @@ Type of Classifiers | Training accuracy | Testing accuracy |
 **SVM Linear** | 93.0% | 94.0% | 
 **SVM rbf** | 94.0% | 95.0% | 
 
+## ➲Installation
 
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/rishika-shrimal2107/Breast_cancer_prediction_.git
+   ```
+
+   2. **Run the code from cmd:**
+   ```bash
+   python Breast_cancer_prediction_.py
+   ```
+
+   ## ➲Contact
+
+- E-mail   : [rishita.u1234@gmail.com@gmail.com](mailto:rishita.u1234@gmail.com)
+  
