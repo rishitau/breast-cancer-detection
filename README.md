@@ -67,10 +67,16 @@ Type of Classifiers | Training accuracy | Testing accuracy |
 **SVM Linear** | 93.0% | 94.0% | 
 **SVM rbf** | 94.0% | 95.0% | 
 
+
+
+
+
+
+
 ## ➲Installation
 
 
-1. **Clone the Repository:**
+   1. **Clone the Repository:**
    ```bash
    git clone https://github.com/rishika-shrimal2107/Breast_cancer_prediction_.git
    ```
